@@ -68,7 +68,7 @@ The Event Management System is a full-stack web application designed to help use
 ### Frontend Setup
 1. **Navigate to the frontend directory**:
    ```bash
-    cd ../EventManagementClient 
+    cd ../EventManagementClient/ems.client 
 2. **Install dependencies**:
    ```bash
     npm install 
