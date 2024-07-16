@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Grid, Typography } from '@mui/material';
-import EventCard from '../Components/EventCard';
+import EventCard from './components/EventCard';
 import { fetchEvents } from '../services/api';
 
 const Events = () => {
