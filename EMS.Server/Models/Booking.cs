@@ -5,7 +5,7 @@ public class Booking
   public int EventId { get; set; }
 
   public int NumberOfTickets { get; set; }
-  public required User User { get; set; }
-  public required Event Event { get; set; }
+  public User User { get; set; }
+  public Event Event { get; set; }
 
 }
