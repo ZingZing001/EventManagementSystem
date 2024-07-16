@@ -34,4 +34,3 @@ const EventDetail = () => {
 };
 
 export default EventDetail;
-s
