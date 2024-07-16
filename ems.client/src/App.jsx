@@ -7,6 +7,7 @@ import EventDetail from './pages/EventDetail.jsx';
 import CreateEvent from './pages/CreateEvent.jsx';
 import UserProfile from './pages/UserProfile.jsx';
 import Bookings from './pages/Bookings.jsx';
+import './App.css';
 
 const App = () => {
   return (
