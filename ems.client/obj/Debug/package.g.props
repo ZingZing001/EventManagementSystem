@@ -12,7 +12,7 @@
     <PackageJsonDependenciesAxios Condition="$(PackageJsonDependenciesAxios) == ''">^0.21.1</PackageJsonDependenciesAxios>
     <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">^18.3.1</PackageJsonDependenciesReact>
     <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">^18.3.1</PackageJsonDependenciesReactDom>
-    <PackageJsonDependenciesReactRouterDom Condition="$(PackageJsonDependenciesReactRouterDom) == ''">^5.2.0</PackageJsonDependenciesReactRouterDom>
+    <PackageJsonDependenciesReactRouterDom Condition="$(PackageJsonDependenciesReactRouterDom) == ''">^6.0.0</PackageJsonDependenciesReactRouterDom>
     <PackageJsonDependenciesMuiMaterial Condition="$(PackageJsonDependenciesMuiMaterial) == ''">^5.0.0</PackageJsonDependenciesMuiMaterial>
     <PackageJsonDependenciesEmotionStyled Condition="$(PackageJsonDependenciesEmotionStyled) == ''">^11.3.0</PackageJsonDependenciesEmotionStyled>
     <PackageJsonDependenciesMuiIconsMaterial Condition="$(PackageJsonDependenciesMuiIconsMaterial) == ''">^5.0.0</PackageJsonDependenciesMuiIconsMaterial>
