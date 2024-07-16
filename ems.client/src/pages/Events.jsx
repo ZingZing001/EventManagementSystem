@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Grid, Typography } from '@mui/material';
-import EventCard from './components/EventCard';
-import { fetchEvents } from '../services/api';
+import EventCard from './components/EventCard.jsx';
+import { fetchEvents } from '../services/api.js';
 
 const Events = () => {
   const [events, setEvents] = useState([]);
