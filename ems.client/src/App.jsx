@@ -1,15 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import Events from './pages/Events';
-import EventDetail from './pages/EventDetail';
-import CreateEvent from './pages/CreateEvent';
-import UserProfile from './pages/UserProfile';
-import Bookings from './pages/Bookings';
-import Login from './pages/Login';
-import Register from './pages/Register';
-import './App.css';
+import Navbar from './components/Navbar.jsx';
+import Home from './pages/Home.jsx';
+import Events from './pages/Events.jsx';
+import EventDetail from './pages/EventDetail.jsx';
+import CreateEvent from './pages/CreateEvent.jsx';
+import UserProfile from './pages/UserProfile.jsx';
+import Bookings from './pages/Bookings.jsx';
+import Login from './pages/Login.jsx';
+import Register from './pages/Register.jsx';
+import './App.css'; // Importing the CSS file
 
 const App = () => {
   return (
