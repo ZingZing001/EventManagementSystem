@@ -10,8 +10,17 @@ const CreateEvent = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    await createEvent({ name, description, date, location });
-    // Handle success or error here
+    try {
+      await createEvent({ name, description, date, location });
+      alert('Event created successfully!');
+      // Clear the form or redirect as needed
+      setName('');
+      setDescription('');
+      setDate('');
+      setLocation('');
+    } catch (error) {
+      alert('Failed to create event');
+    }
   };
 
   return (
@@ -26,6 +35,7 @@ const CreateEvent = () => {
           onChange={(e) => setName(e.target.value)}
           fullWidth
           margin="normal"
+          required
         />
         <TextField
           label="Description"
@@ -33,6 +43,7 @@ const CreateEvent = () => {
           onChange={(e) => setDescription(e.target.value)}
           fullWidth
           margin="normal"
+          required
         />
         <TextField
           label="Date"
@@ -42,6 +53,7 @@ const CreateEvent = () => {
           fullWidth
           margin="normal"
           InputLabelProps={{ shrink: true }}
+          required
         />
         <TextField
           label="Location"
@@ -49,6 +61,7 @@ const CreateEvent = () => {
           onChange={(e) => setLocation(e.target.value)}
           fullWidth
           margin="normal"
+          required
         />
         <Button type="submit" variant="contained" color="primary">
           Create Event
