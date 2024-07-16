@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1IS9H1In/t4=",
+  "dgSpecHash": "NMHOVfhLC60=",
   "success": true,
-  "projectFilePath": "E:\\Project\\EventManagementSystem\\EMS.server\\EMS.Server.csproj",
+  "projectFilePath": "E:\\Project\\EventManagementSystem\\EMS.Server\\EMS.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\johns\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\johns\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
