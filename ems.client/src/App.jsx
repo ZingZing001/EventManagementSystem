@@ -6,7 +6,7 @@ import Events from './pages/Events.jsx';
 import EventDetail from './pages/EventDetail.jsx';
 import CreateEvent from './pages/CreateEvent.jsx';
 import UserProfile from './pages/UserProfile.jsx';
-import Bookings from './pages/Bookings.jsx';
+import Bookings from './pages/Booking.jsx';
 
 const App = () => {
   return (
