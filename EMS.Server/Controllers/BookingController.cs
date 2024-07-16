@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using EventManagementAPI.Data;
-using EventManagementAPI.Models;
+
 
 [Route("api/[controller]")]
 [ApiController]
