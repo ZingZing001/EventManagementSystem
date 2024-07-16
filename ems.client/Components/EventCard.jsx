@@ -27,3 +27,4 @@ const EventCard = ({ event }) => {
 };
 
 export default EventCard;
+// Compare this snippet from ems.client/pages/Home.jsx:
