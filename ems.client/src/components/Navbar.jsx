@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { AppBar, Toolbar, Typography, Button } from '@mui/material';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../context/AuthContext';
 
 const Navbar = () => {
+  const { user, logout } = useContext(AuthContext);
+
   return (
     <AppBar position="static">
       <Toolbar>
@@ -14,9 +17,19 @@ const Navbar = () => {
         <Button color="inherit" component={Link} to="/create-event">Create Event</Button>
         <Button color="inherit" component={Link} to="/profile">Profile</Button>
         <Button color="inherit" component={Link} to="/bookings">Bookings</Button>
-        <Button color="inherit" component={Link} to="/login">Login</Button>
-        <Button color="inherit" component={Link} to="/register">Register</Button>
-
+        {user ? (
+          <>
+            <Typography variant="body1" style={{ marginRight: '1rem' }}>
+              Welcome, {user.username}
+            </Typography>
+            <Button color="inherit" onClick={logout}>Logout</Button>
+          </>
+        ) : (
+          <>
+            <Button color="inherit" component={Link} to="/login">Login</Button>
+            <Button color="inherit" component={Link} to="/register">Register</Button>
+          </>
+        )}
       </Toolbar>
     </AppBar>
   );
