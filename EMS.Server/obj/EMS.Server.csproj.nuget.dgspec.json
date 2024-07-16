@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project\\EventManagementSystem\\EMS.Server\\EMS.Server.csproj": {}
+    "E:\\Project\\EventManagementSystem\\EMS.server\\EMS.Server.csproj": {}
   },
   "projects": {
-    "E:\\Project\\EventManagementSystem\\EMS.Server\\EMS.Server.csproj": {
+    "E:\\Project\\EventManagementSystem\\EMS.server\\EMS.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\EventManagementSystem\\EMS.Server\\EMS.Server.csproj",
+        "projectUniqueName": "E:\\Project\\EventManagementSystem\\EMS.server\\EMS.Server.csproj",
         "projectName": "EMS.Server",
-        "projectPath": "E:\\Project\\EventManagementSystem\\EMS.Server\\EMS.Server.csproj",
+        "projectPath": "E:\\Project\\EventManagementSystem\\EMS.server\\EMS.Server.csproj",
         "packagesPath": "C:\\Users\\johns\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\EventManagementSystem\\EMS.Server\\obj\\",
+        "outputPath": "E:\\Project\\EventManagementSystem\\EMS.server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\johns\\AppData\\Roaming\\NuGet\\NuGet.Config",
